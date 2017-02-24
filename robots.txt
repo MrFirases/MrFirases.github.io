@@ -15,3 +15,5 @@ Disallow: /js/*
 Disallow: /404.html
 
 Allow: /
+
+Sitemap: http://www.mrfirases.me/sitemap.xml

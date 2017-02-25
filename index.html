@@ -763,6 +763,15 @@
 		<script src="js/isotope.pkgd.min.js"></script>
 		<!-- Images Loaded -->
 		<script src="js/imagesloaded.pkgd.min.js"></script>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -34.397, lng: 150.644},
+                zoom: 8
+            });
+        }
+    </script>
 		<!-- google maps -->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3yNgudf9WXVTqZ6fSwYT7-S1strNj7z8&callback=initMap"></script>
 		<!-- Scripts.js -->

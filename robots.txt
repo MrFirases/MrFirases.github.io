@@ -1,4 +1,7 @@
-#User-agent: *
-#Disallow:
+User-agent: *
+Allow: /index.html
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /scripts
 Sitemap: http://www.mrfirases.me/sitemap.xml
-Crawl-delay: 10

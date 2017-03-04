@@ -1,9 +1,13 @@
+
+
+
 <?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	if(!empty($_POST['contact_name']) && !empty($_POST['contact_email']) && !empty($_POST['contact_message'])) {
-		$to = 'profirases@gmail.com'; // Replace with your email.
-		$body = "Name: {$_POST['contact_name']}\n\nEmail: {$_POST['contact_email']}\n\nMessage: {$_POST['contact_message']}";
-		mail($to, "Contact Form Submission", $body, "From: {$_POST['contact_email']}");
-	}
-}
+$to      = 'profirases@gmail.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: mohamedfiras.ouertani@esprit.tn' . "\r\n" .
+    'Reply-To: mohamedfiras.ouertani@esprit.tn' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
 ?>

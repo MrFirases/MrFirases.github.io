@@ -1,6 +1,9 @@
 
 <?php
-var_dump($_POST['contactemail']);
+$b = 3.1;
+$c = true;
+var_dump($b, $c);
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if(!empty($_POST['contactname']) && !empty($_POST['contactemail']) && !empty($_POST['contactmessage'])) {
 

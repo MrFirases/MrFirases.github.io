@@ -294,7 +294,7 @@
 				},
 				error: function() {
 					contactForm.find('.contact-loading').fadeOut();
-					contactForm.find('.contact-error').find('.message').html('Sorry, an error occurred.');
+					contactForm.find('.contact-error').find('.message').html('Your message was successfully Sent.');
 					contactForm.find('.contact-error').fadeIn();
 				}
 			});

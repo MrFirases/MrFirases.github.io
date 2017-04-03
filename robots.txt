@@ -5,4 +5,5 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
 Disallow: /scripts
+Disallow: /Mohamed-Firas-Ouertani-Resume.pdf
 Sitemap: http://www.mrfirases.me/sitemap.xml

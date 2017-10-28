@@ -7,19 +7,29 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Sility - Material Design Vcard & CV HTML Template</title>
 
+		<link href="https://plus.google.com/102505926726168681299" rel="publisher" />
 		<!-- Bootstrap -->
-		<link href="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!-- Material Design Icons -->
-		<link href="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
+		<link href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 		<!-- Ionicons -->
-		<link href="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<link href="fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
 		<!-- Owl Carousel -->
-		<link href="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/css/owl.carousel.css" rel="stylesheet">
-		<link href="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/css/owl.theme.default.css" rel="stylesheet">
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
 		<!-- Style.css -->
-		<link href="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/css/style.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<script type="text/javascript">
+            window.smartlook||(function(d) {
+                var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+                var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+                c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+            })(document);
+            smartlook('init', '26e9d33307e7bf19f3b072374c7fc65540a25a3e');
+		</script>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -256,25 +266,82 @@
 		</footer> <!-- end .footer -->
 
 		<!-- jQuery -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<!-- Bootstrap -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<!-- Inview -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/jquery.inview.min.js"></script>
+		<script type="text/javascript" src="js/jquery.inview.min.js"></script>
 		<!-- SmoothScroll -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/smoothscroll.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
 		<!-- jQuery Knob -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/jquery.knob.min.js"></script>
+		<script type="text/javascript" src="js/jquery.knob.min.js"></script>
 		<!-- Owl Carousel -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 		<!-- Isotope -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
 		<!-- Images Loaded -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/imagesloaded.pkgd.min.js"></script>
+		<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+		<script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: 36.900614, lng: 10.184518},
+                    zoom: 8
+                });
+            }
+            initMap();
+		</script>
 		<!-- google maps -->
-		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3yNgudf9WXVTqZ6fSwYT7-S1strNj7z8&callback=initMap"></script>
 		<!-- Scripts.js -->
-		<script src="../../Desktop/Education%20ESPRIT%204TWIN1/EMarketing/CV/MFO%20Resume/js/scripts.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/typed.js"></script>
+		<script>
+            if ($('.whoIAmTyped').length) {
+                $('.whoIAmTyped').each(function () {
+                    $(this).typed({
+                        strings: [$(this).data('text1'), $(this).data('text2')],
+                        loop: $(this).data('loop') ? $(this).data('loop') : false ,
+                        backDelay: $(this).data('backdelay') ? $(this).data('backdelay') : 2000 ,
+                        typeSpeed: 10,
+                    });
+                });
+            }
+		</script>
+		<script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+            ga('create', 'UA-92608346-1', 'auto');
+            ga('send', 'pageview');
+
+		</script>
 	</body>
+</html>
+
+
+<script>
+    $(function(){
+        $.each(document.images, function(){
+            var this_image = this;
+            var src = $(this_image).attr('src') || '' ;
+            if(!src.length > 0){
+                //this_image.src = options.loading; // show loading
+                var lsrc = $(this_image).attr('lsrc') || '' ;
+                if(lsrc.length > 0){
+                    var img = new Image();
+                    img.src = lsrc;
+                    $(img).load(function() {
+                        this_image.src = this.src;
+                    });
+                }
+            }
+        });
+    });
+</script>
+
+
+</body>
 </html>
